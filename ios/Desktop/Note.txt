@@ -1,0 +1,55 @@
+Ideas
+-Mix & Match
+-Expand
+-Condense
+-Integration
+-New UI
+-Web <-> App
+-Offline <-> Online
+-Chi <-> Eng
+
+MVP
+-Newsletter
+-Spreadsheet
+-Menubar App
+-Bot
+-One Page Site
+-Netlify CMS
+
+Game
+-Choice e.g. Reigns
+    -Wrong Choice -> Wait
+-Input -> Output e.g. Travel Frog
+    -Timing?
+    -Dependent on other players?
+    -Can't leave the app e.g. Forest - Stay focused
+
+***
+2018 Second Half
+
+Tech
+-Keep shipping
+    -A Small Thing A Week + A Big Thing A Month
+    -Launch: HN/Reddit/FB Group...
+    -If good feedback -> AD$ + Enhance
+-New Lang
+    -Swift -> AR/VR/Core ML/Games/Mac App
+    -Python -> ML/Raspberry Pi
+    -Typescript
+    -Golang
+-CS?
+    -Data Structure
+    -Algorithm
+-AWS Certs?
+    -acloudguru: ruoen.you@ecloudvalley.com EcloudGoodToGo
+
+Exercise
+-Aerobic: Run/Swim
+-Yoga/Stretch
+-Juggling
+
+Misc.
+-Driving License
+-Macau ID
+-Spanish
+
