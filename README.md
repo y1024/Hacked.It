@@ -4,7 +4,7 @@ A client for reading Hacker News and Reddit in one place, built with react nativ
 
 ## Screenshots
 
-![hn](/images/hn.JPG) ![reddit](/images/reddit.JPG) ![comments](/images/comments.JPG)
+<img src="/images/hn.JPG" width="250" /><img src="/images/reddit.JPG" width="250" /><img src="/images/comments.JPG" width="250" />
 
 ## Download
 
