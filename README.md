@@ -2,6 +2,8 @@
 
 A client for reading Hacker News and Reddit in one place, built with react native.
 
+[Read the related blog post here.](https://medium.com/@longsangstan/hacked-it-read-hacker-news-reddit-in-one-place-2f41ef461d76)
+
 ## Screenshots
 
 <img src="/images/hn.JPG" width="250" /> <img src="/images/reddit.JPG" width="250" /> <img src="/images/comments.JPG" width="250" />
