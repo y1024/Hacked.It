@@ -35,6 +35,12 @@ export default class MoreContainer extends Component {
     this.setModalState(currency);
   };
 
+  handleSourceCodeOnPress = () => {
+    Linking.openURL("https://github.com/longsangstan/Hacked.It").catch(
+      () => {}
+    );
+  };
+
   handleReviewOnPress = () => {
     Linking.openURL(
       "https://itunes.apple.com/app/id1419109543?action=write-review&mt=8"
@@ -67,13 +73,13 @@ export default class MoreContainer extends Component {
             RCiesielczuk's HackerBuzz.
           </Text>
         </View>
-        {/* <View style={textContainer}>
-          <Text style={donateHeadline}>Roadmap</Text>
-          <Text style={body}>
-            Add support for reddit, and other tech news sources.
-          </Text>
-        </View> */}
-        <View style={[textContainer, { marginBottom: 25 }]}>
+        <View style={textContainer}>
+          <Text style={donateHeadline}>Source Code</Text>
+          <TouchableOpacity onPress={this.handleSourceCodeOnPress}>
+            <Text style={contact}>Check it out here!</Text>
+          </TouchableOpacity>
+        </View>
+        <View style={[textContainer, { marginBottom: 0 }]}>
           <Text style={donateHeadline}>Contact</Text>
           <TouchableOpacity onPress={this.handleContactOnPress}>
             <Text style={contact}>Tap here!</Text>
