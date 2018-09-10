@@ -2,13 +2,11 @@ import React, { Component } from "react";
 import { View, Platform } from "react-native";
 import { AdMobBanner } from "react-native-admob";
 import { darkTheme } from "../styles";
+import { UNIT_ID_IOS, UNIT_ID_AN } from "../AdMobConfig";
 
 // Test ID
-const AD_UNIT_ID = "ca-app-pub-3940256099942544/6300978111";
-// const AD_UNIT_ID =
-//   Platform.OS == "ios"
-//     ? "***"
-//     : "***";
+// const AD_UNIT_ID = "ca-app-pub-3940256099942544/6300978111";
+const AD_UNIT_ID = Platform.OS == "ios" ? UNIT_ID_IOS : UNIT_ID_AN;
 
 class AdMobBannerView extends Component {
   state = {
