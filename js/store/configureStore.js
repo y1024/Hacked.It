@@ -9,8 +9,6 @@ import rootReducer from "../reducers";
 
 const createStoreWithMiddleware = applyMiddleware(thunk, logger)(createStore);
 
-AsyncStorage.clear();
-
 export default function configureStore(onComplete) {
   const store = autoRehydrate()(createStoreWithMiddleware)(
     rootReducer,
